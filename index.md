@@ -9,7 +9,7 @@ In any way you choose, you are allowed to used only information from one record 
 Note that the benchmark record must not be used as an input to any of your calibration method.
 
 ### If you choose to calibrate from original videos and images,
-Download the compressed file related to the method that you are developing from [here](https://entuedu-my.sharepoint.com/:f:/g/personal/prayook_staff_main_ntu_edu_sg/EtBd_TI-VV9Nq2Lr8qHJApwBS6Gm_l3PJy9djfQKDwvbEg?e=4hjdva) (~220 GB if you want to download everything). The password is provided in the article. These compressed files can be extracted by 7Zip.
+Download the compressed file related to the method that you are developing from [here](https://entuedu-my.sharepoint.com/:f:/g/personal/prayook_staff_main_ntu_edu_sg/EtBd_TI-VV9Nq2Lr8qHJApwBS6Gm_l3PJy9djfQKDwvbEg?e=4hjdva) or from [mirror link](https://e.pcloud.link/publink/show?code=kZvJnxZfKAwqt0IbiLDsGdIWnrIn78c4fB7) (~220 GB if you want to download everything). The password is provided in the article. These compressed files can be extracted by 7Zip.
 - chessboard.7z contains 30 png images of chessboard at different pose from each camera.
 - activeWandRecord.7z contains 33 different records of moving active dual-marker wand. Each record contain 7 videos in mjpeg format.
 - aniposeRecord.7z contains 33 different records of a moving ChArUco board. Each record contain 7 videos in avi format.
@@ -17,7 +17,7 @@ Download the compressed file related to the method that you are developing from 
 - benchmarkRecord.7z contains 1 record of a moving passive single-marker wand in parallel with a marker-based motion capture system. This record contains 7 videos in mjpeg format recorded at 50 fps and a tsv file to represent the 3D trajectory of the passive marker recorded at 200 Hz from Qualisys. You should not use this data as an input to your calibration method as it is use exclusively for independent benchmarking.
 
 ### If you choose to calibrate from pre-extracted input,
-Download all the pre-extracted data from [here](https://drive.google.com/file/d/14S-sDUGC9x6hr8-vcOYlJcvWw5kFrmKP/view?usp=sharing) (~17 MB). The password is provided in the article. This compressed file can be extracted by 7Zip. 
+Download all the pre-extracted data from [here](https://drive.google.com/file/d/14S-sDUGC9x6hr8-vcOYlJcvWw5kFrmKP/view?usp=sharing) or from [mirror link](https://e.pcloud.link/publink/show?code=XZrJnxZATN0HVjlEo5hdLSr9lT4wVjREmX7) (~17 MB). The password is provided in the article. This compressed file can be extracted by 7Zip. 
 - chessboard folder contain 7 pickled file. One file is for one camera. Each pickled file contain the following dictionary.
 ```
 {
@@ -152,12 +152,13 @@ python main.py
 ``` 
 
 # Cite Us
-If you gain something from our dataset, please cite our publication.
+If you gain something from our dataset, please cite our publication titled "Multi-Camera Calibration Using Far-Range Dual-LED Wand and Near-Range Chessboard Fused in Bundle Adjustment".
+It will be published soon.
 ```
 Bibtex will be here soon
 ```
 
 # Contact Us
-- Prayook Jatesiktat. prayook001@e.ntu.edu.sg
+- Prayook Jatesiktat. prayook001[at]e[dot]ntu[dot]edu[dot]sg
 
 I am from Nanyang Technological University.
