@@ -153,9 +153,19 @@ python main.py
 
 # Cite Us
 If you gain something from our dataset, please cite our publication titled "Multi-Camera Calibration Using Far-Range Dual-LED Wand and Near-Range Chessboard Fused in Bundle Adjustment".
-It will be published soon.
 ```
-Bibtex will be here soon
+@Article{Jatesiktat2024fusedBAcalib,
+    AUTHOR = {Jatesiktat, Prayook and Lim, Guan Ming and Ang, Wei Tech},
+    TITLE = {Multi-Camera Calibration Using Far-Range Dual-LED Wand and Near-Range Chessboard Fused in Bundle Adjustment},
+    JOURNAL = {Sensors},
+    VOLUME = {24},
+    YEAR = {2024},
+    NUMBER = {23},
+    ARTICLE-NUMBER = {7416},
+    URL = {https://www.mdpi.com/1424-8220/24/23/7416},
+    ISSN = {1424-8220},
+    DOI = {10.3390/s24237416}
+}
 ```
 
 # Contact Us
